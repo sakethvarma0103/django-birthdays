@@ -1,0 +1,19 @@
+ul
+{
+    list-style:none; 
+    display: flex;
+}
+ul li
+{
+    font-size: large;
+    transition: all ease-in 0.2s;
+}
+ul li:hover
+{
+    font-size: larger;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{%block page_title%}{{m|title}}{%endblock%}
+
+{%block content%}
+    {% include "header.html" %}
+    <h2>
+        {{m|title}} bdays
+    </h2>
+    {% if text is not None %}
+        <h5>{{ text }}</h5>
+    {%else%}
+    <p>No birthdays in this month</p>
+    {%endif%}
+{%endblock%}
